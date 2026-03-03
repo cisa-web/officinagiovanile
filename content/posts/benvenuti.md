@@ -5,7 +5,7 @@ description: "Il nostro nuovo sito è online. Scopri chi siamo e cosa facciamo."
 tags: ["notizie", "associazione"]
 draft: false
 cover:
-  image: "/images/benvenuti.png"
+  image: "/images/benvenuti.webp"
   alt: "La tua Europa. Il tuo futuro. In movimento."
 ---
 

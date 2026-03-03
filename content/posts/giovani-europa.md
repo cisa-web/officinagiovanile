@@ -5,7 +5,7 @@ description: "L'Europa non è solo un'istituzione, è una comunità di giovani c
 tags: ["giovani", "europa", "futuro"]
 draft: false
 cover:
-  image: "/images/youth.jpg"
+  image: "/images/youth.webp"
   alt: "Giovani e Europa"
 ---
 

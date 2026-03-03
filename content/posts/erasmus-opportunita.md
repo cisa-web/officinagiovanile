@@ -7,7 +7,7 @@ draft: false
 ShowToc: true
 TocOpen: true
 cover:
-  image: "/images/culture.jpg"
+  image: "/images/culture.webp"
   alt: "Erasmus+ opportunità per i giovani"
 ---
 

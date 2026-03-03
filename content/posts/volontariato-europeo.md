@@ -5,7 +5,7 @@ description: "Il Corpo Europeo di Solidarietà ti permette di fare volontariato 
 tags: ["volontariato", "europa", "solidarietà"]
 draft: false
 cover:
-  image: "/images/ragazzi.jpg"
+  image: "/images/ragazzi.webp"
   alt: "Volontariato europeo"
 ---
 
