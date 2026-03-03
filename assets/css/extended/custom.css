@@ -1,0 +1,74 @@
+:root {
+  --primary: #1A3A8F;
+  --accent: #F5B800;
+  --secondary: #044d40;
+}
+
+/* Link */
+a {
+  color: var(--primary);
+}
+a:hover {
+  color: var(--accent);
+}
+
+*/ Header /*
+.header {
+  border-bottom: 3px solid var(--accent);
+}
+
+/* Logo/titolo sito */
+.logo a {
+  color: var(--primary) !important;
+  font-weight: 700;
+}
+
+/* Menu voci */
+.menu a {
+  color: var(--primary);
+}
+.menu a:hover {
+  color: var(--accent);
+}
+
+/* Titoli post */
+.post-title a {
+  color: var(--primary);
+}
+.post-title a:hover {
+  color: var(--accent);
+}
+
+/* Pulsanti */
+.button,
+.volunteer-btn {
+  display: inline-block;
+  background-color: var(--primary);
+  color: #fff !important;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+.button:hover,
+.volunteer-btn:hover {
+  background-color: var(--accent);
+  color: var(--primary) !important;
+}
+
+/* Tag */
+.post-tags a {
+  border: 1px solid var(--accent);
+  color: var(--primary);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+.post-tags a:hover {
+  background-color: var(--accent);
+  color: var(--primary);
+}
+/* Testo anteprima post in homepage */
+.entry-content {
+  color: #333333;
+}

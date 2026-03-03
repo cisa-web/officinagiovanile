@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Officina Giovanile</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Officina Giovanile</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benvenuto su Officina Giovanile!</title>
+      <link>http://localhost:1313/posts/benvenuti/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/benvenuti/</guid>
+      <description>Il nostro nuovo sito è online. Scopri chi siamo e cosa facciamo.</description>
+    </item>
+    <item>
+      <title>Chi siamo</title>
+      <link>http://localhost:1313/chi-siamo/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/chi-siamo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Officina Giovanile&lt;/strong&gt; è un&amp;rsquo;associazione di Promozione Sociale (APS) nata con l&amp;rsquo;obiettivo di supportare, formare e valorizzare i giovani del territorio.&lt;/p&gt;
+&lt;p&gt;Crediamo nel potere della partecipazione attiva, della solidarietà e della creatività come strumenti di cambiamento sociale.&lt;/p&gt;
+&lt;h2 id=&#34;la-nostra-missione&#34;&gt;La nostra missione&lt;/h2&gt;
+&lt;p&gt;Promuovere opportunità di crescita personale e professionale per i giovani, attraverso progetti, eventi e attività di volontariato.&lt;/p&gt;
+&lt;h2 id=&#34;i-nostri-valori&#34;&gt;I nostri valori&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inclusione&lt;/li&gt;
+&lt;li&gt;Partecipazione&lt;/li&gt;
+&lt;li&gt;Solidarietà&lt;/li&gt;
+&lt;li&gt;Innovazione sociale&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Contatti</title>
+      <link>http://localhost:1313/contatti/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contatti/</guid>
+      <description>&lt;h2 id=&#34;scrivici&#34;&gt;Scrivici&lt;/h2&gt;
+&lt;p&gt;Hai domande, proposte o vuoi saperne di più? Contattaci!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📧 &lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:info@officinagiovanile.org&#34;&gt;info@officinagiovanile.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📍 &lt;strong&gt;Sede:&lt;/strong&gt; [inserisci indirizzo]&lt;/li&gt;
+&lt;li&gt;📱 &lt;strong&gt;Social:&lt;/strong&gt; seguici sui nostri canali&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;orari&#34;&gt;Orari&lt;/h2&gt;
+&lt;p&gt;[Inserisci orari di apertura o disponibilità]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cosa facciamo</title>
+      <link>http://localhost:1313/cosa-facciamo/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cosa-facciamo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Officina Giovanile&lt;/strong&gt; promuove attività e progetti rivolti ai giovani del territorio.&lt;/p&gt;
+&lt;h2 id=&#34;le-nostre-attività&#34;&gt;Le nostre attività&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Formazione&lt;/strong&gt; — Workshop, seminari e percorsi formativi&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Volontariato&lt;/strong&gt; — Opportunità di impegno civico e sociale&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Progetti europei&lt;/strong&gt; — Partecipazione a programmi come Erasmus+ e Corpo Europeo di Solidarietà&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Eventi&lt;/strong&gt; — Incontri, dibattiti e momenti di aggregazione&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;i-nostri-progetti&#34;&gt;I nostri progetti&lt;/h2&gt;
+&lt;p&gt;Siamo sempre al lavoro su nuovi progetti. Seguici sul blog per restare aggiornato!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diventa volontario</title>
+      <link>http://localhost:1313/volontario/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/volontario/</guid>
+      <description>&lt;p&gt;Vuoi fare la differenza? Unisciti a noi come volontario!&lt;/p&gt;
+&lt;h2 id=&#34;perché-diventare-volontario&#34;&gt;Perché diventare volontario?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Acquisisci nuove competenze&lt;/li&gt;
+&lt;li&gt;Conosci persone con la tua stessa passione&lt;/li&gt;
+&lt;li&gt;Contribuisci attivamente alla comunità&lt;/li&gt;
+&lt;li&gt;Vivi esperienze formative uniche&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;come-aderire&#34;&gt;Come aderire&lt;/h2&gt;
+&lt;p&gt;Compila il modulo di adesione e ti contatteremo al più presto!&lt;/p&gt;
+
+&lt;a href=&#34;https://forms.google.com&#34; target=&#34;_blank&#34; class=&#34;volunteer-btn&#34;&gt;
+  Compila il modulo
+&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>Erasmus&#43;: opportunità per i giovani</title>
+      <link>http://localhost:1313/posts/erasmus-opportunita/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/erasmus-opportunita/</guid>
+      <description>Scopri come Erasmus&#43; può cambiare la tua vita e aprire nuove porte in Europa.</description>
+    </item>
+    <item>
+      <title>Volontariato europeo: un&#39;esperienza che forma</title>
+      <link>http://localhost:1313/posts/volontariato-europeo/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/volontariato-europeo/</guid>
+      <description>Il Corpo Europeo di Solidarietà ti permette di fare volontariato all&amp;#39;estero e crescere come persona.</description>
+    </item>
+    <item>
+      <title>Giovani e Europa: costruiamo il futuro insieme</title>
+      <link>http://localhost:1313/posts/giovani-europa/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/giovani-europa/</guid>
+      <description>L&amp;#39;Europa non è solo un&amp;#39;istituzione, è una comunità di giovani che condividono valori e sogni.</description>
+    </item>
+  </channel>
+</rss>

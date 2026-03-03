@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Giovani on Officina Giovanile</title>
+    <link>http://localhost:1313/tags/giovani/</link>
+    <description>Recent content in Giovani on Officina Giovanile</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/giovani/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giovani e Europa: costruiamo il futuro insieme</title>
+      <link>http://localhost:1313/posts/giovani-europa/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/giovani-europa/</guid>
+      <description>L&amp;#39;Europa non è solo un&amp;#39;istituzione, è una comunità di giovani che condividono valori e sogni.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+baseURL: "https://officinagiovanile.org/"
+languageCode: "it-IT"
+title: "Officina Giovanile"
+theme: "PaperMod"
+
+defaultContentLanguage: "it"
+
+params:
+  author: "Officina Giovanile"
+  description: "Notizie, progetti e opportunità per i giovani"
+  mainSections:
+    - posts
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - name: "Blog"
+      url: "/posts/"
+      weight: 1
+    - name: "Chi siamo"
+      url: "/chi-siamo/"
+      weight: 2
+    - name: "Cosa facciamo"
+      url: "/cosa-facciamo/"
+      weight: 3
+    - name: "Diventa volontario"
+      url: "/volontario/"
+      weight: 4
+    - name: "Contatti"
+      url: "/contatti/"
+      weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
