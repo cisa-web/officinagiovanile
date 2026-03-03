@@ -43,5 +43,33 @@
       <guid>http://localhost:1313/tags/opportunit%C3%A0/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Solidarietà</title>
+      <link>http://localhost:1313/tags/solidariet%C3%A0/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solidariet%C3%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Volontariato</title>
+      <link>http://localhost:1313/tags/volontariato/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/volontariato/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Futuro</title>
+      <link>http://localhost:1313/tags/futuro/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/futuro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Giovani</title>
+      <link>http://localhost:1313/tags/giovani/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/giovani/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

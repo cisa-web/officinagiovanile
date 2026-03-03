@@ -44,6 +44,24 @@
     <loc>http://localhost:1313/tags/opportunit%C3%A0/</loc>
     <lastmod>2026-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/solidariet%C3%A0/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/volontariato/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/volontariato-europeo/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/futuro/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/giovani/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/giovani-europa/</loc>
+    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

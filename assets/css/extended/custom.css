@@ -12,7 +12,7 @@ a:hover {
   color: var(--accent);
 }
 
-*/ Header /*
+/* Header */
 .header {
   border-bottom: 3px solid var(--accent);
 }
@@ -68,7 +68,74 @@ a:hover {
   background-color: var(--accent);
   color: var(--primary);
 }
+
 /* Testo anteprima post in homepage */
 .entry-content {
   color: #333333;
+}
+
+/* Hamburger button */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Animazione hamburger → X */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Menu mobile */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  #menu {
+    display: none !important;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  #menu.open {
+    display: flex !important;
+  }
+
+  #menu li {
+    border-bottom: 1px solid #eee;
+  }
+
+  #menu li a {
+    display: block;
+    padding: 10px 0;
+    color: var(--primary);
+    font-weight: 500;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }

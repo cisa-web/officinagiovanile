@@ -4,6 +4,8 @@ date: 2026-03-01
 description: "Scopri come Erasmus+ può cambiare la tua vita e aprire nuove porte in Europa."
 tags: ["erasmus", "europa", "opportunità"]
 draft: false
+ShowToc: true
+TocOpen: true
 cover:
   image: "/images/culture.jpg"
   alt: "Erasmus+ opportunità per i giovani"
