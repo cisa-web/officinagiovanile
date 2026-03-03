@@ -1,4 +1,4 @@
-baseURL: "https://officinagiovanile.org/"
+baseURL: "https://officinagiovanile.netlify.app/"
 languageCode: "it-IT"
 title: "Officina Giovanile"
 theme: "PaperMod"
