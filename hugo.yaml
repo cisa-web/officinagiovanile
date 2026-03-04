@@ -16,6 +16,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  timeFormat: "2 January 2006"
 
 menu:
   main:

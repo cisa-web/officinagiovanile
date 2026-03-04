@@ -16,7 +16,8 @@
           {{ end }}
         </div>
         <div class="news-card-body">
-          <div class="news-meta">📅 {{ .Date.Format "2 January 2006" }}</div>
+          {{ $mesi := slice "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" }}
+      <div class="news-meta">📅 {{ .Date.Day }} {{ index $mesi (sub .Date.Month 1) }} {{ .Date.Year }}</div>    
           <h3>{{ .Title }}</h3>
           <p>{{ .Description }}</p>
           <a href="{{ .Permalink }}" class="btn btn-orange">Leggi l'articolo →</a>
