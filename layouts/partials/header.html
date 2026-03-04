@@ -49,10 +49,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Hamburger
     const btn = document.getElementById('hamburger-btn');
-    const menu = document.getElementById('main-nav');
-    if (btn && menu) {
+    const nav = document.getElementById('main-nav');
+    if (btn && nav) {
         btn.addEventListener('click', function() {
-            menu.classList.toggle('open');
+            nav.classList.toggle('open');
             btn.classList.toggle('active');
         });
     }
@@ -63,7 +63,15 @@ document.addEventListener('DOMContentLoaded', function() {
             if (window.innerWidth <= 768) {
                 e.preventDefault();
                 const parent = this.closest('li.has-dropdown');
-                parent.classList.toggle('open');
+                const isOpen = parent.classList.contains('open');
+                // Chiudi tutti i dropdown aperti
+                document.querySelectorAll('li.has-dropdown').forEach(function(i) {
+                    i.classList.remove('open');
+                });
+                // Se era chiuso aprilo, se era aperto lascialo chiuso
+                if (!isOpen) {
+                    parent.classList.add('open');
+                }
             }
         });
     });
