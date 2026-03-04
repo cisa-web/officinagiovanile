@@ -19,21 +19,33 @@ params:
 
 menu:
   main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Opportunità"
+      url: "/opportunita/"
+      weight: 2
+    - name: "Erasmus+"
+      url: "/erasmus/"
+      weight: 3
+      parent: "Opportunità"
+    - name: "ESC Volontariato"
+      url: "/esc/"
+      weight: 4
+      parent: "Opportunità"
+    - name: "Formazione"
+      url: "/formazione/"
+      weight: 5
+      parent: "Opportunità"
     - name: "Blog"
       url: "/posts/"
-      weight: 1
+      weight: 6
     - name: "Chi siamo"
       url: "/chi-siamo/"
-      weight: 2
-    - name: "Cosa facciamo"
-      url: "/cosa-facciamo/"
-      weight: 3
-    - name: "Diventa volontario"
-      url: "/volontario/"
-      weight: 4
+      weight: 7
     - name: "Contatti"
       url: "/contatti/"
-      weight: 5
+      weight: 8
 
 outputs:
   home:

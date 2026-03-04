@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "header.html" . }}
+  {{ partial "hero.html" . }}
+  {{ partial "features.html" . }}
+  {{ partial "news.html" . }}
+  {{ partial "cta.html" . }}
+  {{ partial "footer-custom.html" . }}
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.has-dropdown').forEach(function(item) {
+      var dropdown = item.querySelector('.dropdown');
+      dropdown.removeAttribute('style');
+      item.addEventListener('mouseenter', function() {
+        dropdown.removeAttribute('style');
+        dropdown.style.setProperty('display', 'block', 'important');
+      });
+      item.addEventListener('mouseleave', function() {
+        dropdown.style.setProperty('display', 'none', 'important');
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
