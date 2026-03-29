@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__label">APS · Fondi (LT)</div>
+  <h1>{{ .Site.Params.tagline | replaceRE "\\." ".<br>" | safeHTML }}</h1>
+  <p>{{ .Site.Params.description }}<br>Promuoviamo partecipazione, mobilità europea e cultura sportiva nella provincia di Latina.</p>
+  <a href="/chi-siamo/" class="btn">Scopri chi siamo</a>
+</section>
+
+<!-- ULTIME NOTIZIE -->
+<section class="section">
+  <div class="section__header">
+    <h2 class="section__title">Ultime notizie</h2>
+    <a href="/news/" class="section__link">Tutte →</a>
+  </div>
+
+  {{ $news := where .Site.RegularPages "Section" "news" }}
+  {{ range first 2 $news }}
+  <a href="{{ .Permalink }}" class="news-card">
+    {{ if .Params.image }}
+    <div class="news-card__image">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}">
+    </div>
+    {{ else }}
+    <div class="news-card__image news-card__image--placeholder">
+      {{ .Params.emoji | default "📋" }}
+    </div>
+    {{ end }}
+    <div class="news-card__body">
+      <div class="news-card__meta">
+        {{ if .Params.categories }}
+        <span class="tag">{{ index .Params.categories 0 }}</span>
+        {{ end }}
+        <span class="news-card__date">{{ .Date.Format "2 Jan 2006" }}</span>
+      </div>
+      <div class="news-card__title">{{ .Title }}</div>
+      <div class="news-card__excerpt">{{ .Summary }}</div>
+      <div class="news-card__readmore">Leggi tutto →</div>
+    </div>
+  </a>
+  {{ end }}
+</section>
+
+<!-- AREE -->
+<section class="section" style="padding-bottom: 24px;">
+  <h2 class="section__title" style="margin-bottom: 14px;">Le nostre aree</h2>
+  <div class="areas-grid">
+    <a href="/progetti/" class="area-card">
+      <div class="area-card__icon">🇪🇺</div>
+      <div class="area-card__label">Erasmus+</div>
+      <div class="area-card__desc">Mobilità e scambi giovanili internazionali</div>
+    </a>
+    <a href="/progetti/" class="area-card">
+      <div class="area-card__icon">⚽</div>
+      <div class="area-card__label">Sport & Comunità</div>
+      <div class="area-card__desc">Arti marziali, futsal, pallamano come aggregazione</div>
+    </a>
+    <a href="/progetti/" class="area-card">
+      <div class="area-card__icon">🎓</div>
+      <div class="area-card__label">Formazione</div>
+      <div class="area-card__desc">Workshop, seminari e percorsi per giovani</div>
+    </a>
+    <a href="/progetti/" class="area-card">
+      <div class="area-card__icon">🤝</div>
+      <div class="area-card__label">Reti locali</div>
+      <div class="area-card__desc">Collaborazioni con enti e associazioni del territorio</div>
+    </a>
+  </div>
+</section>
+
+{{ end }}

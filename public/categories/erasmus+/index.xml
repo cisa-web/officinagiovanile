@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erasmus&#43; on Officina Giovanile APS</title>
+    <link>http://localhost:1313/categories/erasmus&#43;/</link>
+    <description>Recent content in Erasmus&#43; on Officina Giovanile APS</description>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/erasmus+/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In preparazione tre progetti europei per i giovani di Fondi</title>
+      <link>http://localhost:1313/news/progetti-erasmus-2026/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/progetti-erasmus-2026/</guid>
+      <description>Un KA154 e due ESC small-scale da presentare ad ottobre 2026. OG porta in provincia la progettazione europea.</description>
+    </item>
+  </channel>
+</rss>

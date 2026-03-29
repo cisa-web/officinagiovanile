@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Associazione on Officina Giovanile APS</title>
+    <link>http://localhost:1313/categories/associazione/</link>
+    <description>Recent content in Associazione on Officina Giovanile APS</description>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/associazione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emilio Cibelli nominato Fiduciario CONI per il Comune di Fondi</title>
+      <link>http://localhost:1313/news/cibelli-fiduciario-coni/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/cibelli-fiduciario-coni/</guid>
+      <description>Un riconoscimento importante per il territorio e per il network sportivo che Officina Giovanile sta costruendo.</description>
+    </item>
+  </channel>
+</rss>

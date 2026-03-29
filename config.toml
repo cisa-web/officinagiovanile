@@ -1,0 +1,37 @@
+baseURL = "https://officinagiovanile.it/"
+languageCode = "it-IT"
+title = "Officina Giovanile APS"
+paginate = 6
+enableRobotsTXT = true
+
+[params]
+  description = "Associazione di Promozione Sociale – Fondi (LT)"
+  tagline = "Spazio per i giovani. Radici nel territorio."
+  email = "info@officinagiovanile.it"
+  sede = "Fondi (LT), Lazio"
+  cf = "90083700592"
+  oid = "E10431056"
+  instagram = "https://instagram.com/officinagiovanile"
+  facebook = "https://facebook.com/officinagiovanile"
+
+[menu]
+  [[menu.main]]
+    name = "Chi siamo"
+    url = "/chi-siamo/"
+    weight = 1
+  [[menu.main]]
+    name = "Progetti"
+    url = "/progetti/"
+    weight = 2
+  [[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 3
+  [[menu.main]]
+    name = "Contatti"
+    url = "/contatti/"
+    weight = 4
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <a href="/" class="navbar__logo">
+    <div class="navbar__logo-badge">OG</div>
+    <span class="navbar__logo-text">Officina Giovanile</span>
+  </a>
+  <button class="navbar__hamburger" id="menu-toggle" aria-label="Menu">☰</button>
+</nav>
+
+<div class="nav-menu" id="nav-menu">
+  <a href="/">Home</a>
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</div>

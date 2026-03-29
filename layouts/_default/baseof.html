@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+
+  {{ partial "navbar.html" . }}
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+  {{ partial "bottom-nav.html" . }}
+
+  <script>
+    // Hamburger menu toggle
+    const btn = document.getElementById('menu-toggle');
+    const menu = document.getElementById('nav-menu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => menu.classList.toggle('is-open'));
+      document.addEventListener('click', (e) => {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.remove('is-open');
+        }
+      });
+    }
+
+    // Bottom nav — evidenzia pagina attiva
+    const currentPath = window.location.pathname;
+    document.querySelectorAll('.bottom-nav__item').forEach(el => {
+      const href = el.getAttribute('href');
+      if (href && (currentPath === href || currentPath.startsWith(href) && href !== '/')) {
+        el.classList.add('active');
+      } else if (href === '/' && currentPath === '/') {
+        el.classList.add('active');
+      }
+    });
+
+    // Navbar — evidenzia link attivo
+    document.querySelectorAll('.nav-menu a').forEach(el => {
+      if (el.getAttribute('href') === currentPath) el.classList.add('active');
+    });
+  </script>
+
+</body>
+</html>

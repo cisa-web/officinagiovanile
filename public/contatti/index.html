@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contatta Officina Giovanile APS - Fondi (LT)">
+<title>Contatti · Officina Giovanile APS</title>
+<link rel="stylesheet" href="/css/main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231A3A6B'/><text x='16' y='23' font-size='14' font-weight='900' text-anchor='middle' fill='%23E8A020' font-family='Arial'>OG</text></svg>">
+
+</head>
+<body>
+
+  <nav class="navbar">
+  <a href="/" class="navbar__logo">
+    <div class="navbar__logo-badge">OG</div>
+    <span class="navbar__logo-text">Officina Giovanile</span>
+  </a>
+  <button class="navbar__hamburger" id="menu-toggle" aria-label="Menu">☰</button>
+</nav>
+
+<div class="nav-menu" id="nav-menu">
+  <a href="/">Home</a>
+  
+  <a href="/chi-siamo/">Chi siamo</a>
+  
+  <a href="/progetti/">Progetti</a>
+  
+  <a href="/news/">News</a>
+  
+  <a href="/contatti/">Contatti</a>
+  
+</div>
+
+
+  <main>
+    
+
+
+
+<div class="page-header">
+  <div class="page-header__label">Scrivici</div>
+  <h1>Contatti</h1>
+</div>
+<div class="page-content">
+  <p>Vuoi proporre una collaborazione, partecipare a un progetto o semplicemente saperne di più? Scrivici.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+</div>
+
+
+
+  </main>
+
+  <footer class="site-footer">
+  <p>
+    <strong style="color: rgba(255,255,255,0.8);">Officina Giovanile APS</strong><br>
+    CF 90083700592 · OID Erasmus+ E10431056<br>
+    Fondi (LT), Lazio<br>
+    <a href="mailto:info@officinagiovanile.it">info@officinagiovanile.it</a>
+  </p>
+  <p style="margin-top: 12px;">
+    © 2026 Officina Giovanile APS — Tutti i diritti riservati
+  </p>
+</footer>
+
+  <nav class="bottom-nav">
+  <a href="/" class="bottom-nav__item">
+    <div class="bottom-nav__icon">🏠</div>
+    <span class="bottom-nav__label">Home</span>
+    <div class="bottom-nav__dot"></div>
+  </a>
+  <a href="/news/" class="bottom-nav__item">
+    <div class="bottom-nav__icon">📰</div>
+    <span class="bottom-nav__label">Notizie</span>
+    <div class="bottom-nav__dot"></div>
+  </a>
+  <a href="/progetti/" class="bottom-nav__item">
+    <div class="bottom-nav__icon">🚀</div>
+    <span class="bottom-nav__label">Progetti</span>
+    <div class="bottom-nav__dot"></div>
+  </a>
+  <a href="/contatti/" class="bottom-nav__item">
+    <div class="bottom-nav__icon">✉️</div>
+    <span class="bottom-nav__label">Contatti</span>
+    <div class="bottom-nav__dot"></div>
+  </a>
+</nav>
+
+
+  <script>
+    
+    const btn = document.getElementById('menu-toggle');
+    const menu = document.getElementById('nav-menu');
+    if (btn && menu) {
+      btn.addEventListener('click', () => menu.classList.toggle('is-open'));
+      document.addEventListener('click', (e) => {
+        if (!btn.contains(e.target) && !menu.contains(e.target)) {
+          menu.classList.remove('is-open');
+        }
+      });
+    }
+
+    
+    const currentPath = window.location.pathname;
+    document.querySelectorAll('.bottom-nav__item').forEach(el => {
+      const href = el.getAttribute('href');
+      if (href && (currentPath === href || currentPath.startsWith(href) && href !== '/')) {
+        el.classList.add('active');
+      } else if (href === '/' && currentPath === '/') {
+        el.classList.add('active');
+      }
+    });
+
+    
+    document.querySelectorAll('.nav-menu a').forEach(el => {
+      if (el.getAttribute('href') === currentPath) el.classList.add('active');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+{{ if eq .Section "news" }}
+<!-- ARTICOLO NEWS -->
+<div class="article-hero">
+  <a href="/news/" class="article-hero__back">← News</a>
+  {{ if .Params.categories }}
+  <span class="tag">{{ index .Params.categories 0 }}</span>
+  {{ end }}
+  <h1>{{ .Title }}</h1>
+  <div class="article-hero__date">{{ .Date.Format "2 January 2006" }}</div>
+</div>
+
+<div class="article-body">
+  {{ .Content }}
+
+  <div class="share-box">
+    <div class="share-box__label">Condividi questo articolo</div>
+    <div class="share-box__links">
+      <a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" target="_blank" rel="noopener">Facebook</a>
+      <a class="share-link" href="https://api.whatsapp.com/send?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="share-link" href="https://t.me/share/url?url={{ .Permalink }}&text={{ .Title }}" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </div>
+</div>
+
+{{ else }}
+<!-- PAGINE STATICHE (Chi siamo, Progetti, Contatti...) -->
+<div class="page-header">
+  {{ if .Params.label }}<div class="page-header__label">{{ .Params.label }}</div>{{ end }}
+  <h1>{{ .Title }}</h1>
+</div>
+<div class="page-content">
+  {{ .Content }}
+</div>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Formazione on Officina Giovanile APS</title>
+    <link>http://localhost:1313/categories/formazione/</link>
+    <description>Recent content in Formazione on Officina Giovanile APS</description>
+    <generator>Hugo</generator>
+    <language>it-IT</language>
+    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/formazione/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seminario CONI Lazio a Latina: Emilio Cibelli porta OG al tavolo regionale</title>
+      <link>http://localhost:1313/news/seminario-coni-latina/</link>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/seminario-coni-latina/</guid>
+      <description>Una giornata intensa di lavoro e confronto con i referenti sportivi del Lazio. Il Fiduciario CONI di Fondi presente ai lavori.</description>
+    </item>
+  </channel>
+</rss>
