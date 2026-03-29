@@ -3,19 +3,17 @@
    ============================================ */
 
 :root {
-  --navy: #1B3D8F;
-  --navy-dark: #122B6A;
-  --navy-light: #1E4DB7;
-  --accent: #E8600A;
-  --accent-light: #f07030;
-  --bg: #F0F4FA;
+  --navy: #1A3A6B;
+  --navy-dark: #112850;
+  --navy-light: #2a5298;
+  --accent: #E8A020;
+  --accent-light: #f5c04a;
+  --bg: #F7F6F2;
   --white: #FFFFFF;
-  --text: #1C1C2E;
-  --text-muted: #5A6270;
-  --border: #DDE3EE;
+  --text: #1a1a2e;
+  --text-muted: #6b7280;
+  --border: #e5e1d8;
   --radius: 10px;
-  --shadow: 0 2px 14px rgba(27,61,143,.10);
-  --shadow-hover: 0 8px 28px rgba(27,61,143,.16);
 }
 
 /* RESET & BASE */
@@ -190,7 +188,7 @@ img { max-width: 100%; height: auto; display: block; }
   top: -30px; right: -30px;
   width: 160px; height: 160px;
   border-radius: 50%;
-  display: none;
+  background: rgba(232,160,32,0.12);
 }
 
 .hero__label {
@@ -287,7 +285,7 @@ img { max-width: 100%; height: auto; display: block; }
   border-radius: var(--radius);
   overflow: hidden;
   margin-bottom: 16px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 2px 8px rgba(26,58,107,0.08);
   border: 1px solid var(--border);
   display: block;
   text-decoration: none;
@@ -297,7 +295,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .news-card:hover {
   transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
+  box-shadow: 0 6px 20px rgba(26,58,107,0.14);
 }
 
 .news-card__image {
@@ -372,7 +370,7 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 14px 12px;
   border: 1px solid var(--border);
   cursor: pointer;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 4px rgba(26,58,107,0.06);
   text-decoration: none;
   display: block;
   transition: transform 0.15s;
@@ -493,7 +491,7 @@ img { max-width: 100%; height: auto; display: block; }
   display: flex;
   gap: 14px;
   align-items: flex-start;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 4px rgba(26,58,107,0.06);
 }
 
 .project-card__icon { font-size: 32px; line-height: 1; flex-shrink: 0; }
