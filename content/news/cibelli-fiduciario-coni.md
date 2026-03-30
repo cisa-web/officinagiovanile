@@ -2,7 +2,7 @@
 title: "Emilio Cibelli nominato Fiduciario CONI per il Comune di Fondi"
 date: 2026-03-20
 categories: ["Associazione"]
-image: "/img/01.jpg"
+image: "/img/01.webp"
 emoji: "🏅"
 summary: "Un riconoscimento importante per il territorio e per il network sportivo che Officina Giovanile sta costruendo."
 ---
