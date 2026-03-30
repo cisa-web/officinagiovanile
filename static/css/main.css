@@ -280,8 +280,8 @@ img { max-width: 100%; height: auto; display: block; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #3DAF4B;
-  background: var(--navy-dark);
-  padding: 3px 8px;
+  background: none;
+  padding: 0;
   border-radius: 3px;
   display: inline-block;
 }
