@@ -11,6 +11,12 @@
   <div class="article-hero__date">{{ .Date.Format "2 January 2006" }}</div>
 </div>
 
+{{ if .Params.image }}
+<div class="article-image">
+  <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}">
+</div>
+{{ end }}
+
 <div class="article-body">
   {{ .Content }}
 
