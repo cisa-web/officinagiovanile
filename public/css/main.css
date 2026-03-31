@@ -26,6 +26,7 @@ html { font-size: 16px; scroll-behavior: smooth; }
 
 body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
   background: var(--bg);
   color: var(--text);
   max-width: 480px;
@@ -116,7 +117,7 @@ img { max-width: 100%; height: auto; display: block; }
   display: block;
   padding: 14px 20px;
   color: var(--navy);
-  font-size: 15px;
+  font-size: 17px;
   font-family: Georgia, serif;
   border-bottom: 1px solid rgba(255,255,255,0.07);
   transition: color 0.2s;
@@ -222,7 +223,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero p {
   color: rgba(255,255,255,0.78);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -343,7 +344,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .news-card__title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text);
   font-family: Georgia, serif;
@@ -352,14 +353,14 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .news-card__excerpt {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--text-muted);
   line-height: 1.5;
 }
 
 .news-card__readmore {
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 13px;
   color: #3DAF4B;
   font-weight: 600;
 }
@@ -397,7 +398,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .area-card__desc {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   line-height: 1.4;
 }
@@ -427,7 +428,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .page-content {
   padding: 16px 16px 24px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.75;
 }
@@ -536,7 +537,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .erasmus-banner__text {
   color: var(--navy);
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.6;
 }
 
