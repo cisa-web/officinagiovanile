@@ -6,8 +6,9 @@
   --navy: #1A3A6B;
   --navy-dark: #112850;
   --navy-light: #2a5298;
-  --accent: #E8A020;
-  --accent-light: #f5c04a;
+  --accent: #E8600A;        /* era oro, diventa arancio */
+  --accent-light: #f07030;  /* era oro chiaro */
+  --green: #3DAF4B;
   --bg: #F7F6F2;
   --white: #FFFFFF;
   --text: #1a1a2e;
@@ -100,8 +101,8 @@ img { max-width: 100%; height: auto; display: block; }
 /* Menu mobile */
 .nav-menu {
   display: none;
-  background: var(--navy-dark);
-  border-bottom: 3px solid var(--accent);
+  background: var(--white);
+  border-bottom: none;
   position: absolute;
   top: 52px;
   left: 0;
@@ -114,7 +115,7 @@ img { max-width: 100%; height: auto; display: block; }
 .nav-menu a {
   display: block;
   padding: 14px 20px;
-  color: var(--white);
+  color: var(--navy);
   font-size: 15px;
   font-family: Georgia, serif;
   border-bottom: 1px solid rgba(255,255,255,0.07);
@@ -122,7 +123,12 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .nav-menu a:hover,
-.nav-menu a.active { color: var(--accent); font-weight: 700; }
+.nav-menu a.active {
+  color: var(--accent);
+  font-weight: 700;
+  border-left: 3px solid var(--accent);
+  padding-left: 17px;
+}
 
 /* ============================================
    BOTTOM NAV
@@ -273,9 +279,9 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
-  background: var(--navy-dark);
-  padding: 3px 8px;
+  color: #1E6B2E;
+  background: #D6F0DB;
+  padding: 0;
   border-radius: 3px;
   display: inline-block;
 }
@@ -354,7 +360,7 @@ img { max-width: 100%; height: auto; display: block; }
 .news-card__readmore {
   margin-top: 10px;
   font-size: 12px;
-  color: var(--navy-light);
+  color: #3DAF4B;
   font-weight: 600;
 }
 

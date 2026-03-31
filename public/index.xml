@@ -44,6 +44,27 @@
       <description>&lt;p&gt;Vuoi proporre una collaborazione, partecipare a un progetto o semplicemente saperne di più? Scrivici.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
+      <title>Cookie Policy</title>
+      <link>http://localhost:1313/cookie-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cookie-policy/</guid>
+      <description>&lt;h2 id=&#34;cosa-sono-i-cookie&#34;&gt;Cosa sono i cookie&lt;/h2&gt;&#xA;&lt;p&gt;I cookie sono piccoli file di testo che i siti visitati inviano al browser dell&amp;rsquo;utente, dove vengono memorizzati per essere ritrasmessi alla visita successiva.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cookie-utilizzati-da-questo-sito&#34;&gt;Cookie utilizzati da questo sito&lt;/h2&gt;&#xA;&lt;p&gt;Questo sito è generato staticamente con Hugo e ospitato su Netlify. &lt;strong&gt;Non utilizza cookie di profilazione, tracciamento o analisi.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I soli cookie presenti sono cookie tecnici strettamente necessari al funzionamento del sito, che non richiedono consenso ai sensi della normativa vigente.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Erasmus&#43;</title>
+      <link>http://localhost:1313/erasmus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/erasmus/</guid>
+      <description>&lt;p&gt;Officina Giovanile APS è accreditata come organizzazione Erasmus+ con OID &lt;strong&gt;E10431056&lt;/strong&gt;. Siamo l&amp;rsquo;unica realtà associativa nel territorio di Fondi con competenze dirette in progettazione e gestione di progetti europei per i giovani.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cosa-è-erasmus&#34;&gt;Cosa è Erasmus+&lt;/h2&gt;&#xA;&lt;p&gt;Erasmus+ è il programma dell&amp;rsquo;Unione Europea per l&amp;rsquo;istruzione, la formazione, la gioventù e lo sport. Ogni anno finanzia migliaia di progetti in tutta Europa, consentendo a giovani, educatori e organizzazioni di collaborare, formarsi e crescere attraverso esperienze internazionali.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy-policy/</guid>
+      <description>&lt;h2 id=&#34;titolare-del-trattamento&#34;&gt;Titolare del trattamento&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Officina Giovanile APS&lt;/strong&gt;&lt;br&gt;&#xA;Sede: Fondi (LT), Lazio&lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:info@officinagiovanile.it&#34;&gt;info@officinagiovanile.it&lt;/a&gt;&lt;br&gt;&#xA;CF: 90083700592&lt;/p&gt;&#xA;&lt;h2 id=&#34;dati-raccolti&#34;&gt;Dati raccolti&lt;/h2&gt;&#xA;&lt;p&gt;Questo sito non raccoglie dati personali attraverso form o registrazioni. L&amp;rsquo;unico dato trattato è l&amp;rsquo;indirizzo email fornito volontariamente dall&amp;rsquo;utente tramite contatto diretto.&lt;/p&gt;&#xA;&lt;h2 id=&#34;finalità-del-trattamento&#34;&gt;Finalità del trattamento&lt;/h2&gt;&#xA;&lt;p&gt;I dati eventualmente forniti via email sono trattati esclusivamente per rispondere alle richieste dell&amp;rsquo;utente e non vengono condivisi con terzi.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cookie&#34;&gt;Cookie&lt;/h2&gt;&#xA;&lt;p&gt;Questo sito utilizza esclusivamente cookie tecnici necessari al funzionamento. Non vengono utilizzati cookie di profilazione o di tracciamento. Per maggiori informazioni consulta la nostra &lt;a href=&#34;http://localhost:1313/cookie-policy/&#34;&gt;Cookie Policy&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Progetti e attività</title>
       <link>http://localhost:1313/progetti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

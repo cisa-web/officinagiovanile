@@ -13,7 +13,12 @@
 
 {{ if .Params.image }}
 <div class="article-image">
+  {{ $img := .Resources.GetMatch .Params.image }}
+  {{ if $img }}
+  <img src="{{ $img.RelPermalink }}" alt="{{ .Params.image_alt | default .Title }}">
+  {{ else }}
   <img src="{{ .Params.image }}" alt="{{ .Params.image_alt | default .Title }}">
+  {{ end }}
 </div>
 {{ end }}
 

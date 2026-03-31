@@ -6,11 +6,11 @@
 </div>
 
 <div class="section" style="padding-bottom: 24px;">
-  {{ range .Pages }}
+  {{ range .RegularPages }}
   <a href="{{ .Permalink }}" class="news-card">
     {{ if .Params.image }}
     <div class="news-card__image">
-      <img src="{{ .Params.image }}" alt="{{ .Title }}">
+      <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
     </div>
     {{ else }}
     <div class="news-card__image news-card__image--placeholder">
