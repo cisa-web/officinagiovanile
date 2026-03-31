@@ -12,3 +12,7 @@ Un riconoscimento importante per il territorio. Emilio Cibelli, vicepresidente d
 Il ruolo di Fiduciario CONI rappresenta un punto di contatto privilegiato tra il mondo sportivo locale e le strutture nazionali del Comitato Olimpico Nazionale Italiano. Una nomina che rafforza il posizionamento di OG come interlocutore istituzionale per tutto ciò che riguarda sport e giovani nel territorio di Fondi.
 
 A supporto delle attività del Fiduciario, Gabriele Di Manno è stato nominato Coordinatore delle attività sportive del territorio.
+
+<a href="https://google.com" target="_blank" rel="noopener">Vai alla pagina di Google</a>
+
+[testo del link](https://google.com)

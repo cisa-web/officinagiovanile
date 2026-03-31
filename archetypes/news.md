@@ -1,10 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-categories: [""]       # es: Formazione, Erasmus+, Associazione, Sport
-emoji: "📋"            # emoji visualizzata se non hai un'immagine
-image: ""              # path immagine: /img/nome-file.jpg  (lascia vuoto se usi emoji)
-summary: ""            # anteprima breve mostrata nelle card (1-2 righe)
+categories: [""]
+image: ""
+image_alt: ""
+emoji: "📋"
+summary: ""
+description: ""    # max 155 caratteri — usato da Google e condivisioni social
 draft: false
 ---
 

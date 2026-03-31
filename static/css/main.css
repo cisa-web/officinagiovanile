@@ -646,6 +646,11 @@ img { max-width: 100%; height: auto; display: block; }
   font-family: Georgia, serif;
 }
 
+.article-body a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .article-body p { margin-bottom: 16px; }
 
 .share-box {
