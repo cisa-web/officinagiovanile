@@ -32,9 +32,13 @@ enableRobotsTXT = true
     url = "/news/"
     weight = 4
   [[menu.main]]
+    name = "Volontari"
+    url = "/volontari/"
+    weight = 5
+  [[menu.main]]
     name = "Contatti"
     url = "/contatti/"
-    weight = 5
+    weight = 6
 
 [taxonomies]
   tag = "tags"
