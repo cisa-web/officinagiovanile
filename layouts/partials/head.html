@@ -2,13 +2,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
 <link rel="stylesheet" href="/css/main.css">
 <link rel="icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<meta property="og:title" content="{{ .Title }}">
-<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta property="og:image" content="{{ if .Params.image }}{{ .Permalink }}{{ .Params.image }}{{ else }}/img/logo.webp{{ end }}">
+
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+{{ if .Params.image }}
+  {{ $img := .Resources.GetMatch .Params.image }}
+  {{ if $img }}
+    {{/* Crea una versione ottimizzata per i social (1200x630) */}}
+    {{ $og_img := $img.Fill "1200x630 q80 webp" }}
+    <meta property="og:image" content="{{ $og_img.Permalink }}">
+  {{ else }}
+    {{/* Fallback se l'immagine non è un bundle (usa relURL per sicurezza) */}}
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+  {{ end }}
+{{ else }}
+  {{/* Immagine di default quando non c'è una foto nella news */}}
+  <meta property="og:image" content="{{ "/img/logo.webp" | absURL }}">
+{{ end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}">

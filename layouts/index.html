@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero__label">APS · Fondi (LT)</div>
   <h1>{{ .Site.Params.tagline | replaceRE "\\." ".<br>" | safeHTML }}</h1>
@@ -8,7 +7,6 @@
   <a href="/chi-siamo/" class="btn">Scopri chi siamo</a>
 </section>
 
-<!-- ULTIME NOTIZIE -->
 <section class="section">
   <div class="section__header">
     <h2 class="section__title">Ultime notizie</h2>
@@ -18,15 +16,26 @@
   {{ $news := where .Site.RegularPages "Section" "news" }}
   {{ range first 2 $news }}
   <a href="{{ .Permalink }}" class="news-card">
+    
     {{ if .Params.image }}
     <div class="news-card__image">
-      <img src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
+      {{/* Gestione intelligente dell'immagine dal Page Bundle */}}
+      {{ $img := .Resources.GetMatch .Params.image }}
+      {{ if $img }}
+        {{/* Crea una versione ottimizzata e leggera per il mobile */}}
+        {{ $preview := $img.Fill "600x400 q80 webp" }}
+        <img src="{{ $preview.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+      {{ else }}
+        {{/* Fallback nel caso l'immagine non sia nel bundle o sia un URL */}}
+        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
+      {{ end }}
     </div>
     {{ else }}
     <div class="news-card__image news-card__image--placeholder">
       {{ .Params.emoji | default "📋" }}
     </div>
     {{ end }}
+
     <div class="news-card__body">
       <div class="news-card__meta">
         {{ if .Params.categories }}
@@ -42,7 +51,6 @@
   {{ end }}
 </section>
 
-<!-- AREE -->
 <section class="section" style="padding-bottom: 24px;">
   <h2 class="section__title" style="margin-bottom: 14px;">Le nostre aree</h2>
   <div class="areas-grid">
