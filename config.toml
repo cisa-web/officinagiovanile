@@ -1,4 +1,4 @@
-baseURL = "https://officinagiovanile.netlify.app/"
+baseURL = "https://officinagiovanile.org/"
 languageCode = "it-IT"
 title = "Officina Giovanile APS"
 paginate = 6
@@ -7,7 +7,7 @@ enableRobotsTXT = true
 [params]
   description = "Associazione di Promozione Sociale – Fondi (LT)"
   tagline = "Spazio per i giovani. Radici nel territorio."
-  email = "info@officinagiovanile.it"
+  email = "info@officinagiovanile.org"
   sede = "Fondi (LT), Lazio"
   cf = "90083700592"
   oid = "E10431056"
