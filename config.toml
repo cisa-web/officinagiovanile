@@ -11,14 +11,8 @@ enableRobotsTXT = true
   sede = "Fondi (LT), Lazio"
   cf = "90083700592"
   oid = "E10431056"
-
-  # Configurazione Social (Solo quelli richiesti)
   instagram = "https://instagram.com/officinagiovanile"
   facebook = "https://facebook.com/officinagiovanile"
-  whatsapp = "https://wa.me/39XXXXXXXXXX" # Sostituisci con il numero reale
-
-  # Immagine di fallback per le anteprime social (FB/WA)
-  # Assicurati che il file esista in static/img/logo.webp o .jpg
   default_image = "/img/logo.webp"
 
 [menu]

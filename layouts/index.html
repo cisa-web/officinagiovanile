@@ -16,17 +16,13 @@
   {{ $news := where .Site.RegularPages "Section" "news" }}
   {{ range first 2 $news }}
   <a href="{{ .Permalink }}" class="news-card">
-    
     {{ if .Params.image }}
     <div class="news-card__image">
-      {{/* Gestione intelligente dell'immagine dal Page Bundle */}}
       {{ $img := .Resources.GetMatch .Params.image }}
       {{ if $img }}
-        {{/* Crea una versione ottimizzata e leggera per il mobile */}}
         {{ $preview := $img.Fill "600x400 q80 webp" }}
         <img src="{{ $preview.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
       {{ else }}
-        {{/* Fallback nel caso l'immagine non sia nel bundle o sia un URL */}}
         <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" loading="lazy">
       {{ end }}
     </div>
