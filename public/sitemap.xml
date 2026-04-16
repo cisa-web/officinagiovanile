@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-16T21:58:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2026-04-16T21:58:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/nuovo-progetto-erasmu/</loc>
+    <lastmod>2026-04-16T21:58:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/news/nuovo-articolo-dopo-il-secondo/</loc>
+    <lastmod>2026-04-16T21:54:27+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/formazione/</loc>
-    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/news/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/seminario-coni-latina/</loc>

@@ -6,27 +6,26 @@
     <description>Recent content in Categories on Officina Giovanile APS</description>
     <generator>Hugo</generator>
     <language>it-IT</language>
-    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Formazione</title>
-      <link>http://localhost:1313/categories/formazione/</link>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/formazione/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Associazione</title>
       <link>http://localhost:1313/categories/associazione/</link>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/associazione/</guid>
       <description></description>
     </item>
     <item>
       <title>Erasmus&#43;</title>
       <link>http://localhost:1313/categories/erasmus&#43;/</link>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/erasmus&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formazione</title>
+      <link>http://localhost:1313/categories/formazione/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/formazione/</guid>
       <description></description>
     </item>
   </channel>

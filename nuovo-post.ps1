@@ -1,14 +1,9 @@
-# -----------------------------------------------
-# OFFICINA GIOVANILE — Nuovo Post
-# -----------------------------------------------
-
 Write-Host ""
 Write-Host "===============================" -ForegroundColor DarkGreen
-Write-Host "  OFFICINA GIOVANILE — Nuovo Post" -ForegroundColor Green
+Write-Host "  OFFICINA GIOVANILE - Nuovo Post" -ForegroundColor Green
 Write-Host "===============================" -ForegroundColor DarkGreen
 Write-Host ""
 
-# Chiede il titolo
 $titolo = Read-Host "Titolo del post (scrivi normalmente)"
 
 if (-not $titolo) {
@@ -16,7 +11,6 @@ if (-not $titolo) {
     exit
 }
 
-# Converte in slug
 $slug = $titolo.ToLower()
 $slug = $slug -replace '[àáâãäå]', 'a'
 $slug = $slug -replace '[èéêë]', 'e'
@@ -32,23 +26,21 @@ Write-Host "Slug generato: " -NoNewline
 Write-Host $slug -ForegroundColor Cyan
 Write-Host ""
 
-# Conferma
-$conferma = Read-Host "Confermi? (Invio = sì / scrivi un slug diverso)"
+$conferma = Read-Host "Confermi? (Invio = si / scrivi uno slug diverso)"
 if ($conferma -ne "") {
     $slug = $conferma
 }
 
-# Crea il post con Hugo
 $percorso = "news/$slug/index.md"
 Write-Host ""
 Write-Host "Creo il post..." -ForegroundColor Yellow
 hugo new $percorso
 
-# Apre VSCode
 Write-Host "Apro VSCode..." -ForegroundColor Yellow
 code "content/$percorso"
 
 Write-Host ""
 Write-Host "Post creato!" -ForegroundColor Green
-Write-Host "Percorso: content/$percorso" -ForegroundColor Gray
+Write-Host "Percorso:" -ForegroundColor Gray
+Write-Host "content/$percorso" -ForegroundColor Gray
 Write-Host ""
